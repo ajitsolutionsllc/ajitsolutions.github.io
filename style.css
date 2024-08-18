@@ -33,6 +33,11 @@ nav ul {
 
 nav ul li {
     margin: 0 15px;
+    display: inline-block; /* to display the menu items as blocks in same line */
+    list-style: none;
+    text-align: center; /* center align the text within the block */
+    width: 10%; /* set each block a width */
+    vertical-align: middle; /* align the contents to middle vertically */
 }
 
 nav ul li a {
